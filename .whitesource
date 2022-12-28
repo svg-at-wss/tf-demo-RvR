@@ -17,6 +17,14 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
+    },
+    "enableRenovate": "true",
+     "packageRules": [
+      {
+        "matchDatasources": ["terraform-module"],
+        "registryUrls": ["registry.terraform.io"]
+      }
+     ]
+   }
   }
 }
