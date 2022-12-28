@@ -24,8 +24,7 @@ module "security-group_demo_mod2" {
 module "vpcDemo" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "3.18.1"
-  
-  cidr                                 = "172.31.0.0/16"
+  cidr = "172.31.0.0/16"
   vpc_tags = {
     "Name" = "VPC Demo"
   }
