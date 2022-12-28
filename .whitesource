@@ -19,12 +19,15 @@
       "enabled": true
     },
     "enableRenovate": "true",
-     "packageRules": [
+    "packageRules": [
       {
-        "matchDatasources": ["terraform-module"],
-        "registryUrls": ["registry.terraform.io"]
+        "matchDatasources": [
+          "terraform-module"
+        ],
+        "registryUrls": [
+          "registry.terraform.io"
+        ]
       }
-     ]
-   }
+    ]
   }
 }
