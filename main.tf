@@ -11,13 +11,13 @@ module "db_module" {
 # Public module1; public, but remote tf registry, tfaws demo modules
 module "security-group_demo_mod1" {
   source  = "terraform-aws-modules/security-group/aws//examples/complete"
-  version = "4.15.0"
+  version = "4.16.2"
 }
 
 # Public module2; public, but remote tf registry, tfaws demo modules
 module "security-group_demo_mod2" {
   source  = "terraform-aws-modules/security-group/aws//examples/rules-only"
-  version = "4.15.0"
+  version = "4.16.2"
 }
 
 # Baked in vpc resource, invoking vpc via module is superfluous; demonstrates how provider resources are exposed
