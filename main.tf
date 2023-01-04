@@ -8,6 +8,12 @@ module "db_module" {
   
 }
 
+# Private module, published to private tf registry
+module "customModule1" {
+  source  = "app.terraform.io/example-org-94a64a/customModule1/aws"
+  version = "1.0.0"
+}
+
 # Public module1; public, but remote tf registry, tfaws demo modules
 module "security-group_demo_mod1" {
   source  = "terraform-aws-modules/security-group/aws//examples/complete"
