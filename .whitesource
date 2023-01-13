@@ -3,7 +3,10 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": ["main", "dev"]
+    "baseBranches": [
+      "main",
+      "dev"
+    ]
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
@@ -19,6 +22,15 @@
       "enabled": true
     },
     "enableRenovate": "true",
+    "hostRules": [
+      {
+        "matchHost": "",
+        "userName": "samantha.gray@mend.io",
+        "encrypted": {
+          "password": "wcBMA8xOaBJvzJNbAQf+Ic+J/VoYeo+nkD/OtCS6KNOgcqcYqlkkdv8U1upvYo7SZRjyFpuA4lXDji02088sG9M7jV2BPl+xVCsrrns+4B/XkF2Ikd0CDK/nhzzGo6NQQ4VUYj5ZCMPmKcZ7pPhQKB0sK0ymkE8A53T0PVzfmXRLwGEMa3yDgie3fZALKgXUXf7y9ST7LMgYDPPN/0+pGd4d/+n9ySlIn4/ArBnv8SQ3ZMFF48mzHmUEzLQQPxAV+DGbVfjM4e5IRJFQW1eOAAT51m8dx/2+ENhmllfm3lB+fWfH65seQ09eMqmiyY9YZ28tG/x9RJzP8YcTW8qWBHD7mcj4NBnOniGdlqsw79KrAa0sg16BC+fC68vqZw6dWsXyQip73qdyFwc01tMgB88zgpUswLUMNvJ8fg2js9z70x+www07Y/W4y4W1pEZwNvW6V0oUcoecsr7lBmneKcL9b4TwH5jCFmvgxE6RuBDdue8YyKCIEyQRo7cJRC9IfQnQQ9mFU5eu7VWjdnCHZqaFJpDRH+PNlzOYJVLxnUSChbpO3+bJXntOWjGCki6oI2E+MMjX45J3xx4K"
+        }
+      }
+    ],
     "packageRules": [
       {
         "matchDatasources": [
