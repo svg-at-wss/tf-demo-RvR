@@ -10,7 +10,7 @@ module "db_module" {
 
 # Private module, published to private tf registry
 module "customModule1" {
-  source  = "app.terraform.io/example-org-94a64a/customModule1/aws"
+  source  = "app.terraform.io/SVG-tfc-org1/customModule1/aws"
   version = "1.0.0"
 }
 
