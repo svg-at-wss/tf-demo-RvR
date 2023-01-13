@@ -11,7 +11,7 @@ module "db_module" {
 # Private module, published to private tf registry
 module "customModule1" {
   source  = "app.terraform.io/SVG-tfc-org1/customModule1/aws"
-  version = "1.0.0"
+  version = "2.0.2"
 }
 
 # Public module1; public, but remote tf registry, tfaws demo modules
