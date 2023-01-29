@@ -23,7 +23,7 @@ module "security-group_demo_mod2" {
 # Baked in vpc resource, invoking vpc via module is superfluous; demonstrates how provider resources are exposed
 module "vpcDemo" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "3.18.1"
+  version = "3.19.0"
   cidr = "172.31.0.0/16"
   vpc_tags = {
     "Name" = "VPC Demo"
