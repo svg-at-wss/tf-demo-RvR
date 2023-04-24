@@ -6,7 +6,8 @@
     "baseBranches": [
       "main",
       "dev"
-    ]
+    ],
+    "enableIaC": true
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
