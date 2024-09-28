@@ -2,7 +2,7 @@
 ARG BASE_IMAGE=amd64/ubuntu:18.04
 
 # This buildpack is used for tool installation and user/directory setup
-FROM containerbase/buildpack:3.17.4@sha256:dbcfcca7de096140389a21695976c0056b5adee5e494bfb6b537dee5c7384080 AS buildpack
+FROM containerbase/buildpack:3.20.0@sha256:6bb3621daf9e2320b5a7fccfc8fb2ff7c9fbe4e093228e07cb51371d4c384795 AS buildpack
 
 FROM ${BASE_IMAGE} as base
 
